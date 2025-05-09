@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: auto ;
     padding: 0 auto;
     box-sizing: border-box;
     position: relative;
@@ -60,7 +60,7 @@
 }
   
   .hero {
-    background-image: url('/2202758.jpg');
+    background-image: url('/images/2202758.jpg');
     display: flex;
     justify-content: space-between;
     align-items: center;
