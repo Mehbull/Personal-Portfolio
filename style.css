@@ -3,16 +3,13 @@
     padding: 0 auto;
     box-sizing: border-box;
     position: relative;
-    
   }
-  
   body {
     font-family: "Segoe UI", sans-serif;
     line-height: 1.6;
     /* background-image: url(/sl_031420_28950_10.jpg ); */
     /* background: #fff; */
     color: #000;
- 
   }
 
   .navbar{
@@ -25,8 +22,8 @@
     position: relative;
     top: 0;
     
-} 
-.logo{
+  } 
+  .logo{
     background-color: #3939b6;
     color: #fff;
     padding: 6px 14px;
@@ -34,9 +31,9 @@
     font-weight: bold;
     font-size: 1rem;
     margin-left: 40px;
-}
+  }
 
-.logoname{
+  .logoname{
     margin-left: 10px;
     font-weight: bold;
     color: #1a1aff;
@@ -44,30 +41,31 @@
     flex: 1;
     font-style: oblique;
 
-}
+  }
 
-.navigations{
+  .navigations{
     list-style: none;
     display: flex;
     gap: 50px;
     font-weight: bold;
     margin-right: 50px;
     /* color: #007bff; */
-}
-.nav-links a.active,
-.nav-links a:hover {
+  }
+  .nav-links a.active,
+  .nav-links a:hover {
   color: #1a1aff;
-}
+  }
   
   .hero {
-    background-image: url('/images/2202758.jpg');
+    background-image: url('/images/17300_resized_background.jpg');
+    background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px 50px 40px;
     /* background: #f8f9fa; */
     flex-wrap: wrap;
-    margin-left: 70px;
+    /* margin-left: 70px; */
   }
   
   .hero-content {
@@ -77,19 +75,19 @@
   .hero-content h1 {
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   .hero-content h1 span {
-    color: #0adbc9;
+    color: #0eb2db;
   }
   
   .hero-content p {
     margin: 30px 0;
-    max-width: 600px;
+    max-width: 700px;
     font-weight: bold;
-    font-size: 1.2rem;
-    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
   }
   
   .hero-buttons .btn {
