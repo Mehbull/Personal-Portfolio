@@ -19,7 +19,7 @@
     padding: 15px 30px;
     background-color: #ffffff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
+    position: sticky;
     top: 0;
     
   } 
@@ -48,6 +48,7 @@
     display: flex;
     gap: 50px;
     font-weight: bold;
+    font-size: 1.2rem;
     margin-right: 50px;
     /* color: #007bff; */
   }
@@ -91,6 +92,7 @@
   }
   
   .hero-buttons .btn {
+    transition:  0.3s ease;
     text-decoration: none;
     background-color: #007bff;
     color: #fff;
